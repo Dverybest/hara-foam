@@ -8,6 +8,7 @@
 }
 .overlay {
   background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
   flex: 1;
   width: 100%;
   height: 100%;
@@ -37,12 +38,14 @@
 .heroTitle {
   font-weight: bold;
   font-size: 4rem;
+  color: #ffffff;
 }
 
 .heroSubTitle {
   font-weight: medium;
   font-size: 0.875rem;
   line-height: 1.75rem;
+  color: #ffffff;
 }
 
 .heroImageContainer {
@@ -64,16 +67,17 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+  color: #ffffff;
+}
+.socialsContainer span a{
+  color: #ffffff;
 }
 .socialTitle {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #ffffff;
 }
-.socialsLine {
-  height: 1px;
-  width: 92.5px;
-  background-color: #ffffff;
-}
+
 /* Mobile */
 @media (max-width: 700px) {
   .navbar {
