@@ -44,15 +44,7 @@
   font-size: 0.875rem;
   line-height: 1.75rem;
 }
-.contactButton {
-  background-color: #008ed6;
-  height: 50px;
-  width: 139px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  align-self: flex-start;
-}
+
 .heroImageContainer {
   flex: 1;
 }
@@ -102,18 +94,5 @@
     flex-direction: column;
     align-items: flex-start;
     row-gap: 20px;
-  }
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
   }
 }

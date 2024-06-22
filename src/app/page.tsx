@@ -17,7 +17,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.overlay}>
         <nav className={styles.navbar}>
-          <img className={styles.logo} alt="hara-foam-logo" src={logo.src} />
+          <Image className={styles.logo} alt="hara-foam-logo" src={logo.src} />
         </nav>
         <div className={styles.hero}>
           <div className={styles.heroDetailsContainer}>
@@ -25,12 +25,11 @@ export default function Home() {
               We are Getting Ready to Launch
             </h1>
             <p className={styles.heroSubTitle}>
-              Discover the secret to a great night's sleep with Harafoam. Our
+              Discover the secret to a great night&apos;s sleep with Hara foam. Our
               mattresses are designed to offer unparalleled comfort and support,
               ensuring you wake up feeling refreshed and ready to take on the
               day
             </p>
-            {/* <button className={styles.contactButton}>Contact Us</button> */}
             <div className={styles.socialsContainer}>
               <a href="" target={"_blank"}>
                 <Image
