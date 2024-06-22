@@ -1,9 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import {
-  facebook_icon,
   hero_image,
-  instagram_icon,
   logo,
   phone_icon,
   whatsapp_icon,
